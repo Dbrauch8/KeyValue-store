@@ -42,8 +42,18 @@ namespace GenericClasses
 
          foreach (var mari in new string[]{"Mario", "Luigi", "Peach", "Bowser", "Koopa"})
          {
-           mario.Enqueue(mari);  
+           mario.Enqueue(mari);
+           Console.WriteLine($"{mari} has joined the queue!");
          }
+            Console.WriteLine("The queue contains:");
+         foreach (var mari in mario)
+         {
+             Console.WriteLine(mari);
+         }
+
+         Console.ReadLine();
+
+
 
         }
     }
