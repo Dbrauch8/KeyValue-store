@@ -10,10 +10,10 @@ namespace KeyValue_store
 {
     class MyDictionary
     {
-        private KeyValue[] book = new KeyValue[50];
+       private KeyValue[] book = new KeyValue[50];
 
         private int tracker = 1;
-
+        
 
         public object this [string searchKey]
         {

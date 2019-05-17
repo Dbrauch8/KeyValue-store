@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyValue store", "KeyValue store\KeyValue store.csproj", "{8184C64F-660B-4287-89BE-31714B5F23BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClasses", "GenericClasses\GenericClasses.csproj", "{5A7822B7-60EE-49DC-950C-79E451DA2561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyValueGeneric", "KeyValueGeneric\KeyValueGeneric.csproj", "{47B93607-F243-4439-B564-2EBE861F714D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8184C64F-660B-4287-89BE-31714B5F23BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8184C64F-660B-4287-89BE-31714B5F23BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8184C64F-660B-4287-89BE-31714B5F23BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7822B7-60EE-49DC-950C-79E451DA2561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7822B7-60EE-49DC-950C-79E451DA2561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7822B7-60EE-49DC-950C-79E451DA2561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7822B7-60EE-49DC-950C-79E451DA2561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B93607-F243-4439-B564-2EBE861F714D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B93607-F243-4439-B564-2EBE861F714D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B93607-F243-4439-B564-2EBE861F714D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B93607-F243-4439-B564-2EBE861F714D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
