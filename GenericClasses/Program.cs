@@ -23,17 +23,21 @@ namespace GenericClasses
             Console.Clear();
             SortedListDisplay();
             Console.Clear();
+            HashsetDisplay();
 
-            HashSet<string> winners = new HashSet<string>(){"Mario", "Peach", "Luigi", "Toad", "Wario"};
-            HashSet<string> losers = new HashSet<string>(){"Bowser", "Wario", "Luigi", "Koopa", "Gumba"};
-            
+        }
+
+        private static void HashsetDisplay()
+        {
+            HashSet<string> winners = new HashSet<string>() { "Mario", "Peach", "Luigi", "Toad", "Wario" };
+            HashSet<string> losers = new HashSet<string>() { "Bowser", "Wario", "Luigi", "Koopa", "Gumba" };
+
             winners.UnionWith(losers);
 
             foreach (var winner in winners)
             {
                 Console.WriteLine(winner);
             }
-
         }
 
         private static void SortedListDisplay()
