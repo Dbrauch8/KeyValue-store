@@ -54,6 +54,22 @@ namespace GenericClasses
          Console.ReadLine();
 
 
+            Console.WriteLine("Stack");
+            Stack<int> builds = new Stack<int>();
+
+            foreach (var build in new int[]{1, 2, 3, 4, 5})
+            {
+                builds.Push(build);
+                Console.WriteLine($"{build} has been pushed on the stack!");
+            }
+
+            Console.WriteLine("\nThe stack contains");
+            foreach (var build in builds)
+            {
+                Console.WriteLine(build);
+            }
+
+            Console.ReadLine();
 
         }
     }
