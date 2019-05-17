@@ -21,12 +21,23 @@ namespace GenericClasses
 
          Console.ReadLine();
 
+
+         Console.WriteLine("LinkedList");
          LinkedList<string> linkList = new LinkedList<string>();
 
          foreach (var link in new string[] {"one", "two", "three", "four", "five"})
          {
-             linkList.AddFirst(link);
+             linkList.AddLast(link);
          }
+
+         foreach (var link in linkList)
+         {
+             Console.WriteLine(link);
+         }
+
+
+
+
         }
     }
 }
