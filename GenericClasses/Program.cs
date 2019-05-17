@@ -13,12 +13,12 @@ namespace GenericClasses
         {
          List<int> list = new List<int>() {1, 2, 3, 4, 5};
          Console.WriteLine("List");
+
          foreach (var num in list)
          {
              
              Console.WriteLine(num);
          }
-
          Console.ReadLine();
 
 
@@ -34,9 +34,16 @@ namespace GenericClasses
          {
              Console.WriteLine(link);
          }
+         Console.ReadLine();
 
 
+            Console.WriteLine("Queue");
+         Queue<string> mario = new Queue<string>();
 
+         foreach (var mari in new string[]{"Mario", "Luigi", "Peach", "Bowser", "Koopa"})
+         {
+           mario.Enqueue(mari);  
+         }
 
         }
     }
