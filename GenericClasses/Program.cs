@@ -22,7 +22,17 @@ namespace GenericClasses
             DictionaryDisplay();
             Console.Clear();
             SortedListDisplay();
+            Console.Clear();
+
+            HashSet<string> winners = new HashSet<string>(){"Mario", "Peach", "Luigi", "Toad", "Wario"};
+            HashSet<string> losers = new HashSet<string>(){"Bowser", "Wario", "Luigi", "Koopa", "Gumba"};
             
+            winners.UnionWith(losers);
+
+            foreach (var winner in winners)
+            {
+                Console.WriteLine(winner);
+            }
 
         }
 
