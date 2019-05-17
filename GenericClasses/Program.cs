@@ -71,6 +71,10 @@ namespace GenericClasses
 
             Console.ReadLine();
 
+            Dictionary<string, int> places = new Dictionary<string, int>(){{"Mario", 1}, {"Luigi", 2}, {"Peach", 3}, {"Bowser", 4}, {"Koopa", 5}};
+
+
+
         }
     }
 }
