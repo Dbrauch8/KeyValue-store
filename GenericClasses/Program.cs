@@ -71,8 +71,24 @@ namespace GenericClasses
 
             Console.ReadLine();
 
+            Console.WriteLine("Dictionary, Let the Race begin!");
             Dictionary<string, int> places = new Dictionary<string, int>(){{"Mario", 1}, {"Luigi", 2}, {"Peach", 3}, {"Bowser", 4}, {"Koopa", 5}};
 
+            foreach (var place in places)
+            {
+                Console.WriteLine(place);
+            }
+
+            Console.ReadLine();
+
+            Console.WriteLine("SortedList, Round two let the race begin!");
+
+            SortedList<string, int> places2 = new SortedList<string, int>(){{"Peach", 1}, {"Koopa", 2}, {"Bowser", 3},{"Luigi", 4},{"Mario", 5}};
+
+            foreach (var place in places2)
+            {
+                Console.WriteLine(place);
+            }
 
 
         }
